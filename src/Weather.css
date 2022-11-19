@@ -1,0 +1,37 @@
+.weather-list li {
+    list-style: none;
+    color: #c06c84;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.search-text {
+    min-width: 300px;
+    padding: 10px 20px;
+    margin: 30px 10px;
+    outline: none;
+    border: 1px solid #f67280;
+    background-color:  #f5b6bd;
+    border-radius: 5px;
+}
+
+.search-text::placeholder {
+    color: black;
+}
+
+.search-input {
+   min-width: 100px;
+    padding: 10px 20px;
+    margin: 30px 10px;
+    outline: none;
+    border: 1px solid #f67280;
+    background-color:  #f67280;
+    border-radius: 5px; 
+    color: white;
+    font-weight: bold;
+}

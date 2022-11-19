@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Weather city="tehran"/>
+        <h1>Samar Weather App </h1>
+        <div className="weather">
+          <Weather />
+        </div>
       </header>
     </div>
   );
