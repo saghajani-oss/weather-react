@@ -9,6 +9,19 @@ function App() {
         <div className="weather">
           <Weather />
         </div>
+        <div className="footer">
+          <a
+            href="https://github.com/saghajani-oss/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          , by{" "}
+          <a href="https://samiraaghajani.ir/" target="_blank" rel="noreferrer">
+            Samira Aghajani
+          </a>
+        </div>
       </header>
     </div>
   );
